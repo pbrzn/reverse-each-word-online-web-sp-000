@@ -1,10 +1,10 @@
 require "pry"
 
 def reverse_each_word(string)
-  string.split(" ")
+  new_string=string.split(" ")
   binding.pry
-  string.each do |word|
+  new_string.each do |word|
     word.reverse
   end
-  string.join(" ")
+  newest_string=new_string.join(" ")
 end
